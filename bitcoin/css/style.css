@@ -1,0 +1,27 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    min-width: 65vw;
+    max-width: 65vh;
+}
+
+.row{
+    border: 1px solid black;
+    display: flex;
+    
+}
+
+.row div{
+    flex: 1;
+    border-right: 1px solid black;
+}
